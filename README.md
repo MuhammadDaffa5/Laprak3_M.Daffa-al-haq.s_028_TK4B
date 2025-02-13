@@ -29,4 +29,16 @@ langkah-langkah percobaan : <br>
   8. dari statistic yang telah dibuka kita dapat melakukan perhitungan througput, packet loss, delay, dan jitternya <br>
      <img src="https://github.com/user-attachments/assets/9de6903c-ae4b-4157-bfef-17d384b9a3c8" alt="Image" width="400"> <br>
 
-  9. 
+  9. hitung througput, packet loss, delay, dan jitter <br>
+     - througput :
+       jumlah byte : time span = hasil byte x 8 <br>
+       46006141 : 455.996 = 100,8915451012728182 x 8 = 807 K <br>
+       kategori sedang <br>
+
+     - packet loss :
+       ((packet data dikirim - packet data yang diterima)/packet data yang di kirim) x 100 <br>
+       ((42706 - 42306)/42706)x100 = (400 : 42706) x 100 = 0,9% <br>
+       kategori <br>
+
+       untuk menghitung delay dan jitter kita memerlukan excel, sebelumnya kita save dulu filenya dengan format csv <br>
+       

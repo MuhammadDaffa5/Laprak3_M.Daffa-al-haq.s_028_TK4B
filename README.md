@@ -55,5 +55,12 @@ langkah-langkah percobaan : <br>
        jitter :
        total jitter : -0.23852247799999300000 s <br>
        rata-rata jitter : -0.00000558522170186843 s x 1000 = -0.00558522170186843000 ms <br>
-       kategori sangat bagus dan indeks nya 4 <br>
+       kategori sangat bagus dan indeks nya 4 <hr>
 
+Analisis percobaan : <br>
+Percobaan ini memanfaatkan Wireshark untuk menganalisis trafik jaringan, dengan fokus pada protokol HTTP, DNS, dan ICMP (PING). HTTP digunakan dalam komunikasi web, DNS berfungsi untuk menerjemahkan nama domain ke alamat IP, sementara ICMP digunakan untuk troubleshooting jaringan. Selain itu, modul ini mengevaluasi Quality of Service (QoS) melalui parameter seperti throughput, packet loss, delay, dan jitter, yang berpengaruh terhadap kualitas jaringan. Analisis ini berguna dalam mendeteksi masalah, meningkatkan keamanan, serta mengoptimalkan performa jaringan. <br>
+
+kesimpulan : <br>
+Berdasarkan analisis trafik jaringan menggunakan Wireshark, diperoleh wawasan mendalam mengenai performa protokol HTTP, DNS, dan ICMP (PING). HTTP menunjukkan pola komunikasi web, DNS mengonfirmasi efektivitas proses penerjemahan nama domain ke alamat IP, dan ICMP membantu dalam troubleshooting jaringan. <br>
+
+Selain itu, evaluasi Quality of Service (QoS) melalui throughput, packet loss, delay, dan jitter memberikan gambaran tentang kualitas koneksi. Hasil analisis ini memungkinkan identifikasi potensi permasalahan jaringan, peningkatan aspek keamanan, serta optimasi performa jaringan untuk memastikan koneksi yang lebih stabil dan efisien. <br>

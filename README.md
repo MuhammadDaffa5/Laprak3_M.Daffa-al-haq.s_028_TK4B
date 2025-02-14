@@ -33,12 +33,27 @@ langkah-langkah percobaan : <br>
      - througput :
        jumlah byte : time span = hasil byte x 8 <br>
        46006141 : 455.996 = 100,8915451012728182 x 8 = 807 K <br>
-       kategori sedang <br>
+       kategori sedang dan indeks nya 2 <br>
 
      - packet loss :
        ((packet data dikirim - packet data yang diterima)/packet data yang di kirim) x 100 <br>
        ((42706 - 42306)/42706)x100 = (400 : 42706) x 100 = 0,9% <br>
-       kategori <br>
+       kategori sangat bagus dan indeks nya 4 <br>
 
        untuk menghitung delay dan jitter kita memerlukan excel, sebelumnya kita save dulu filenya dengan format csv <br>
-       
+       <img src="https://github.com/user-attachments/assets/f4882b4f-d31b-488d-bbef-97a3f147315d" alt="Image" width="400"> <br>
+
+     - untuk mencari delay : <br>
+       <img src="https://github.com/user-attachments/assets/18c4f844-264a-4ea6-8514-3d731a0bc510" alt="Image" width="400"> <br>
+       delay : <br>
+       total delay : 455.99591426000000000000 s <br>
+       rata-rata delay : 0.01067756086404720000 s x 1000 = 10.67756086404720000000 ms <br>
+       kategori sangat bagus dan indeks nya 4 <br>
+
+     - untuk mencari jitter : <br>
+       <img src="https://github.com/user-attachments/assets/b043491e-f615-49af-9f2f-7ca6180dda76" alt="Image" width="400"> <br>
+       jitter :
+       total jitter : -0.23852247799999300000 s <br>
+       rata-rata jitter : -0.00000558522170186843 s x 1000 = -0.00558522170186843000 ms <br>
+       kategori sangat bagus dan indeks nya 4 <br>
+
